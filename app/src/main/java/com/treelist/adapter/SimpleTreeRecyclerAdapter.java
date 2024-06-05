@@ -1,15 +1,16 @@
 package com.treelist.adapter;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.multilevel.treelist.Node;
-import com.multilevel.treelist.TreeRecyclerAdapter;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.bigademo.treelist.Node;
+import com.bigademo.treelist.TreeRecyclerAdapter;
 import com.treelist.R;
 
 import java.util.List;

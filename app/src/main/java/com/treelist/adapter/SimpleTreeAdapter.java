@@ -8,8 +8,8 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.multilevel.treelist.Node;
-import com.multilevel.treelist.TreeListViewAdapter;
+import com.bigademo.treelist.Node;
+import com.bigademo.treelist.TreeListViewAdapter;
 import com.treelist.R;
 
 import java.util.List;
