@@ -6,8 +6,8 @@ android {
     namespace 'com.treelist'
     defaultConfig {
         applicationId "com.treelist"
-        minSdkVersion 14
-        targetSdkVersion 33
+        minSdkVersion 21
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
     }
