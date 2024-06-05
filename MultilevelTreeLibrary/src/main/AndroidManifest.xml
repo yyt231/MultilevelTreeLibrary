@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.multilevel.treelist">
+    package="com.bigademo.treelist">
 
     <application
         android:allowBackup="true"

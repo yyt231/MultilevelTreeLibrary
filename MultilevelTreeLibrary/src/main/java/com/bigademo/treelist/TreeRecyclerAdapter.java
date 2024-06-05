@@ -1,5 +1,6 @@
 package com.bigademo.treelist;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -82,7 +83,7 @@ public abstract class TreeRecyclerAdapter extends RecyclerView.Adapter<RecyclerV
 
 
     @Override
-    public void onBindViewHolder(RecyclerView.ViewHolder holder,final int position) {
+    public void onBindViewHolder(RecyclerView.ViewHolder holder, @SuppressLint("RecyclerView") final int position) {
         Node node = mNodes.get(position);
 
         // 设置内边距
