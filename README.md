@@ -1,6 +1,8 @@
 # MultilevelTreeList
 Multilevel tree list for Android.
 
+-- 更新为 AndroidX
+
 >快速实现Android多级树形列表，这个库是在鸿洋多级树形列表demo中修改而来。
 
 >**解决的问题**：
@@ -30,7 +32,7 @@ Multilevel tree list for Android.
 ##### 2. 在app的build里添加依赖
 ```groovy
     dependencies {
-    implementation 'com.github.yyt231:MultilevelTreeLibrary:v2.0.0'
+        implementation 'com.github.yyt231:MultilevelTreeLibrary:v2.0.0'
     }
 ```
 
